@@ -1,0 +1,97 @@
+
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin:0;
+                padding:0;
+            }
+            img {
+                max-width:100%;
+            }
+            header {
+                background-image: url("iceimg/background.jpg");
+                background-repeat:no-repeat;
+                background-size: cover;
+            } 
+            .color-overlay {
+                background-color:rgba(72, 171, 214, 0.8);
+            }
+            .overlay {
+                background-color:rgba(8, 143, 201, 0.8);
+            }  
+           
+            .sales {
+                background-color: rgba(5, 134, 188, 0.5);
+            }
+            .menubar {
+                background-color: rgb(2, 124, 177);
+            }
+            .text-primary {
+                color:rgb(5, 134, 188)!important;
+            }
+           .bg-info {
+               background-color:rgb(5, 134, 188)!important;
+           }
+           input {
+                margin:50px 0;
+                border:none;
+               outline: none;
+               padding:10px;
+           }
+           button {
+             border:none;
+             padding:10px;
+             margin-left: 0;
+           }
+           ::-webkit-input-placeholder {
+               color:rgb(5, 134, 188);
+           }
+           
+          
+           .bg-secondary {
+               background-color: rgb(247, 245, 245)!important;
+           }
+           .backimg {
+                background-image: url("iceimg/faculty.jpg");
+                background-repeat:no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .bg-light {
+                background-color: azure !important;
+            }
+            .banner a{
+                text-decoration:none;
+                color:rgb(5, 134, 188);
+            }
+            .banner :hover {
+    
+                background-color:rgb(5, 134, 188);
+                color:white;
+            }
+            .dark {
+                background-color: rgb(10, 10, 10, .7);
+                
+            }
+            .icebgimage {
+                background-image: url(iceimg/cleaning.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+                background-position: bottom center;
+            }
+          
+            .order {
+                text-align: center;
+                padding-top: 90px;
+                color:white;
+            }
+           .box {
+               display:flex;
+           }
+          .box p {
+              margin-left: 10px;
+          }
+          
+         
+       
